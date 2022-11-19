@@ -1,3 +1,0 @@
-
-http://crcv.ucf.edu/data/YouTube_DataSet_Annotated.zip
-Drowning and Not Drowning video datasets from the category 'Diving' is taken for consideration in this project
