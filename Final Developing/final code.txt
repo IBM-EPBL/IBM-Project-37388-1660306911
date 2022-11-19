@@ -1,0 +1,816 @@
+HTML  CODES
+
+index.html
+ <!DOCTYPE html>
+<html>
+   <head>
+<meta charset="utf-8">
+<title>Virtual Eye</title>
+<link rel="icon" type="image/x-icon" width="250" height="50" href="C:\Users\hp.pc\Documents\NetBeansProjects\nalaiyathiran\web\eye_image_generic_555.jpg">
+
+<style>
+
+  .border{
+
+   width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border: 2px solid grey
+
+  }
+ 
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-left{
+float:left;
+}
+ #leftbox {
+                float:left; 
+                
+                width:50%;
+                height:280px;
+            }
+ #rightbox{
+                float:right;
+                
+               width:50%;
+                height:280px;
+            }
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<div class="topnav-left">
+<a href="#virtualeye">Virtual Eye</a>
+</div>
+    <a href="#demo">Demo</a>
+    <a href="register.html">Register</a>
+     <a href="login.html">Login</a>
+  <a class="active" href="index.html">Home</a>
+ </div>
+ 
+ <img id ="i1" src="https://i.ndtvimg.com/mt/2014-03/drowning_generic_thinkstock_360x270.jpg" width="100%" height="350px"></a>
+
+</br>
+<H1 style=" text-decoration: underline; text-decoration-color: yellow;text-align: center;color: grey">ABOUT PROJECT</H1>
+
+<div id = "leftbox">
+                <h3>Problem:</h3>
+                Swimming is one of the best exercises that helps people to
+                reduce stress in this urban lifestyle. Swimming pools are 
+                found larger in number in hotels, and weekend tourist spots
+                and barely people have them in their house backyard. Beginners, 
+                especially, often feel it difficult to breathe underwater which 
+                causes breathing trouble which in turn causes a drowning accident
+            </div> 
+<div id = "rightbox">
+                <h3>Solution:</h3>
+                To overcome this conflict, a meticulous system is to be 
+                implemented along the swimming pools to save human life. By 
+                studying body movement patterns and connecting cameras to artificial
+                intelligence (AI) systems we can devise an underwater pool safety 
+                system that reduces the risk of drowning.  Usually, such systems can 
+                be developed by installing more than 16 cameras underwater and ceiling
+                and analyzing the video feeds to detect any anomalies. 
+            </div>
+ 
+</body>
+</html>
+
+login.html
+  
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Virtual Eye</title>
+  <link rel="icon" type="image/x-icon" width="250" height="50" href="https://cdn.digitalhealth.net/wp-content/uploads/2017/03/eye_image_generic_555.jpg">
+  <style>
+
+  .border{
+
+   width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border: 2px solid grey
+
+  }
+ 
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-left{
+float:left;
+}
+  </style>
+</head>
+<body>
+
+<form action="file:///C:/Users/hp.pc/Documents/NetBeansProjects/nalaiyathiran/web/prediction.html">
+
+<div class="topnav">
+<div class="topnav-left">
+<a href="#virtualeye">Virtual Eye</a>
+</div>
+    <a href="register.html">Register</a>
+     <a href="login.html">Login</a>
+  <a class="active" href="index.html">Home</a>
+ </div>
+<center>
+<br><br><br><br><br><br><br>
+<div class="border">
+    <img src="eye_image_generic_555.jpg" width="150" height="100"><br><br>
+<input type="text" placeholder="Enter registered email ID"><br/><br>
+<input type="password" placeholder="Enter password"><br/><br>
+<a href="file:///C:/Users/hp.pc/Documents/NetBeansProjects/nalaiyathiran/web/prediction.html">  
+       <button>Login</button>  
+     </a>
+</div>
+</center>
+</form>
+</body>
+</html>
+
+logout.html
+    
+   <!DOCTYPE html>
+<html>
+  <head>
+<meta charset="ISO-8859-1">
+<title>Virtual Eye</title>
+<link rel="icon" type="image/x-icon" width="250" height="50" href="C:\Users\hp.pc\Documents\NetBeansProjects\nalaiyathiran\web\eye_image_generic_555.jpg">
+<style>
+
+.border{
+
+   width: 200px;
+  height: 230px;
+  object-fit: cover;
+  border: 2px solid grey
+
+  }
+ 
+  .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-left{
+float:left;
+}
+
+h5{
+text-color:green;
+}
+
+</style>
+</head>
+<body>
+<div class="topnav">
+<div class="topnav-left">
+<a href="#virtualeye">Virtual Eye</a>
+</div>
+    <a href="register.html">Register</a>
+     <a href="login.html">Login</a>
+  <a class="active" href="index.html">Home</a>
+ </div>
+ <center>
+ <h2>Successfully Logged Out!</h2>
+ <h4 style="color:green;">Login for more information</h4>
+ <input type="button" value="Login" style="background:black;color:white;">
+ </center>
+
+</body>
+</html>
+
+
+ prediction.html
+  
+  <!DOCTYPE html>
+<html>
+  <head>
+<meta charset="ISO-8859-1">
+<title>Virtual Eye</title>
+<link rel="icon" type="image/x-icon" width="250" height="50" href="C:\Users\hp.pc\Documents\NetBeansProjects\nalaiyathiran\web\eye_image_generic_555.jpg">
+<style>
+ .topnav {
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-left{
+float:left;
+}
+
+h3 {
+  text-decoration: underline;
+  text-decoration-color: yellow;
+}
+
+i1{
+align:left;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5%;
+  padding: 15px 32px;
+}
+
+</style>
+</head>
+<body>
+
+<center>
+<div class="topnav">
+<div class="topnav-left">
+<a href="#virtualeye">Virtual Eye</a>
+</div>
+<a href="logout.html">Logout</a>
+  <a class="active" href="index.html">Home</a>
+ </div>
+ <h3>Virtual Eye - Life Guard for Swimming Pools to Detective Active Drowning</h3>
+<img id ="i1" src="https://i.ndtvimg.com/mt/2014-03/drowning_generic_thinkstock_360x270.jpg" align="right" width="600" height="200"></a>
+<p>
+Swimming is one of the best exercises that helps people to reduce stress in this urban lifestyle.Swimming pools are found larger in number in the hotels, weekend tourist spots and barely people have in their house backyard. Beginners, especially, often feel it difficult to breathe underwater and causes breathing trouble which in turn causes a drowning accident.Worldwide, drowning produces a higher rate of mortality without causing injury to children. Children under six of their age are found to be suffering the highest drowning mortality rates worldwide..Such kinds of deaths account for the third cause of unplanned death globally, with about 1.2 million cases yearly.
+</p>
+</center>
+<div style=" color: white;text-align: center"class="navbar">Copyright @ 2022.All Rights Reserved.</div>
+</body>
+</html>
+  
+  register.html
+ 
+   <!DOCTYPE html>
+<html>
+   
+<head>
+<meta charset="ISO-8859-1">
+<title>Virtual Eye</title>
+<link rel="icon" type="image/x-icon" width="250" height="50" href="https://cdn.digitalhealth.net/wp-content/uploads/2017/03/eye_image_generic_555.jpg">
+
+ <style>
+
+  .border{
+
+   width: 200px;
+  height: 270px;
+  object-fit: cover;
+  border: 2px solid grey
+
+  }
+ 
+   .topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  color: white;
+}
+
+.topnav-left{
+float:left;
+}
+
+  </style>
+</head>
+<body>
+<form action="http://localhost:8080/IBM/3.html">
+<center>
+<div class="topnav">
+<div class="topnav-left">
+<a href="#virtualeye">Virtual Eye</a>
+</div>
+    <a href="register.html">Register</a>
+     <a href="login.html">Login</a>
+  <a class="active" href="index.html">Home</a>
+ </div>
+<br><br><br><br><br><br><br>
+<div class="border">
+    <img src="eye_image_generic_555.jpg" width="150" height="100"><br><br>
+<input type="text" placeholder="Enter Name"><br/><br>
+<input type="text" placeholder="Enter Email ID"><br/><br>
+<input type="password" placeholder="Enter Password"><br/><br>
+<input type="button" value="Register">
+</div>
+ <div class="container signin" align="center">
+    <p>Already have an account? <a href="login.html">Log in</a>.</p>
+  </div>
+</center>
+    
+</form>
+</body>
+</html>
+
+
+PYTHON CODES
+
+downloading dataset
+
+from __future__ import print_function
+import os
+import ucf11_utils as ut
+
+if __name__ == "__main__":
+    os.chdir(os.path.abspath(os.path.dirname(__file__)))
+    ut.download_and_extract('http://crcv.ucf.edu/data/YouTube_DataSet_Annotated.zip')
+    print ('Writing train and test CSV file...')
+    ut.generate_and_save_labels()
+    print ('Done.')
+
+EXTRACTING DATASET
+
+from __future__ import print_function
+try: 
+    from urllib.request import urlretrieve 
+except ImportError: 
+    from urllib import urlretrieve
+
+import os
+import sys
+from zipfile import ZipFile
+
+import split_ucf11 as su
+
+def download_and_extract(src):
+    print ('Downloading ' + src)
+    zip_file, h = urlretrieve(src, './delete.me')
+    print ('Done downloading, start extracting.')
+    try:
+        with ZipFile(zip_file, 'r') as zfile:
+            zfile.extractall('.')
+            print ('Done extracting.')
+    finally:
+        os.remove(zip_file)
+
+def generate_and_save_labels():
+    groups = su.load_groups('./action_youtube_naudio')
+    train, test = su.split_data(groups, '.avi')
+
+    su.write_to_csv(train, os.path.join('.', 'train_map.csv'))
+    su.write_to_csv(test, os.path.join('.', 'test_map.csv'))
+
+SPLITTING OF DATA
+
+import os
+import sys
+import argparse
+import csv
+import numpy as np
+
+import imageio
+
+def load_groups(input_folder):
+    '''
+    Load the list of sub-folders into a python list with their
+    corresponding label.
+    '''
+    groups         = []
+    label_folders  = os.listdir(input_folder)
+    index          = 0
+    for label_folder in sorted(label_folders):
+        label_folder_path = os.path.join(input_folder, label_folder)
+        if os.path.isdir(label_folder_path):
+            group_folders = os.listdir(label_folder_path)
+            for group_folder in group_folders:
+                if group_folder != 'Annotation':
+                    groups.append([os.path.join(label_folder_path, group_folder), index])
+            index += 1
+
+    return groups
+
+def split_data(groups, file_ext):
+    '''
+    Split the data at random for train, eval and test set.
+    '''
+    group_count = len(groups)
+    indices = np.arange(group_count)
+
+    np.random.seed(0) # Make it deterministic.
+    np.random.shuffle(indices)
+
+    # 80% training and 20% test.
+    train_count = int(0.8 * group_count)
+    test_count  = group_count - train_count
+
+    train = []
+    test  = []
+
+    for i in range(train_count):
+        group = groups[indices[i]]
+        video_files = os.listdir(group[0])
+        for video_file in video_files:
+            video_file_path = os.path.join(group[0], video_file)
+            if os.path.isfile(video_file_path):
+                video_file_path = os.path.abspath(video_file_path)
+                ext = os.path.splitext(video_file_path)[1]
+                if (ext == file_ext):
+                    # make sure we have enough frames and the file isn't corrupt
+                    video_reader = imageio.get_reader(video_file_path, 'ffmpeg')                    
+                    if len(video_reader) >= 16:
+                        train.append([video_file_path, group[1]])
+
+    for i in range(train_count, train_count + test_count):
+        group = groups[indices[i]]
+        video_files = os.listdir(group[0])
+        for video_file in video_files:
+            video_file_path = os.path.join(group[0], video_file)
+            if os.path.isfile(video_file_path):
+                video_file_path = os.path.abspath(video_file_path)
+                ext = os.path.splitext(video_file_path)[1]
+                if (ext == file_ext):
+                    # make sure we have enough frames and the file isn't corrupt
+                    video_reader = imageio.get_reader(video_file_path, 'ffmpeg')
+                    if len(video_reader) >= 16:
+                        test.append([video_file_path, group[1]])
+
+    return train, test
+
+def write_to_csv(items, file_path):
+    '''
+    Write file path and its target pair in a CSV file format.
+    '''
+    if sys.version_info[0] < 3:
+        with open(file_path, 'wb') as csv_file:
+            writer = csv.writer(csv_file, delimiter=',')
+            for item in items:
+                writer.writerow(item)
+    else:
+        with open(file_path, 'w', newline='') as csv_file:
+            writer = csv.writer(csv_file, delimiter=',')
+            for item in items:
+                writer.writerow(item)
+
+def main(input_folder, output_folder):
+    '''
+    Main entry point, it iterates through all the video files in a folder or through all
+    sub-folders into a list with their corresponding target label. It then split the data
+    into training set and test set.
+    :param input_folder: input folder contains all the video contents.
+    :param output_folder: where to store the result.
+    '''
+    groups = load_groups(input_folder)
+    train, test = split_data(groups, '.avi')
+
+    write_to_csv(train, os.path.join(output_folder, 'train_map.csv'))
+    write_to_csv(test, os.path.join(output_folder, 'test_map.csv'))
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-i",
+                        "--input_folder",
+                        type = str,
+                        help = "Input folder containing the raw data.",
+                        required = True)
+
+    parser.add_argument("-o",
+                        "--output_folder",
+                        type = str,
+                        help = "Output folder for the generated training, validation and test text files.",
+                        required = True)
+
+    args = parser.parse_args()
+
+    main(args.input_folder, args.output_folder)
+
+
+CNN TRAINING
+
+﻿from __future__ import print_function
+import sys
+import os
+import csv
+import numpy as np
+from random import randint
+
+from PIL import Image
+import imageio
+
+import cntk as C
+from C.logging import *
+from C.debugging import set_computation_network_trace_level
+
+# Paths relative to current python file.
+abs_path   = os.path.dirname(os.path.abspath(__file__))
+data_path  = os.path.join(abs_path, "..", "..", "DataSets", "UCF11")
+model_path = os.path.join(abs_path, "Models")
+
+# Define the reader for both training and evaluation action.
+class VideoReader(object):
+    '''
+    A simple VideoReader: 
+    It iterates through each video and select 16 frames as
+    stacked numpy arrays.
+    Similar to http://vlg.cs.dartmouth.edu/c3d/c3d_video.pdf
+    '''
+    def __init__(self, map_file, label_count, is_training, limit_epoch_size=sys.maxsize):
+        '''
+        Load video file paths and their corresponding labels.
+        '''
+        self.map_file        = map_file
+        self.label_count     = label_count
+        self.width           = 112
+        self.height          = 112
+        self.sequence_length = 16
+        self.channel_count   = 3
+        self.is_training     = is_training
+        self.video_files     = []
+        self.targets         = []
+        self.batch_start     = 0
+
+        map_file_dir = os.path.dirname(map_file)
+
+        with open(map_file) as csv_file:
+            data = csv.reader(csv_file)
+            for row in data:
+                self.video_files.append(os.path.join(map_file_dir, row[0]))
+                target = [0.0] * self.label_count
+                target[int(row[1])] = 1.0
+                self.targets.append(target)
+
+        self.indices = np.arange(len(self.video_files))
+        if self.is_training:
+            np.random.shuffle(self.indices)
+        self.epoch_size = min(len(self.video_files), limit_epoch_size)
+
+    def size(self):
+        return self.epoch_size
+            
+    def has_more(self):
+        if self.batch_start < self.size():
+            return True
+        return False
+
+    def reset(self):
+        if self.is_training:
+            np.random.shuffle(self.indices)
+        self.batch_start = 0
+
+    def next_minibatch(self, batch_size):
+        '''
+        Return a mini batch of sequence frames and their corresponding ground truth.
+        '''
+        batch_end = min(self.batch_start + batch_size, self.size())
+        current_batch_size = batch_end - self.batch_start
+        if current_batch_size < 0:
+            raise Exception('Reach the end of the training data.')
+
+        inputs  = np.empty(shape=(current_batch_size, self.channel_count, self.sequence_length, self.height, self.width), dtype=np.float32)
+        targets = np.empty(shape=(current_batch_size, self.label_count), dtype=np.float32)
+        for idx in range(self.batch_start, batch_end):
+            index = self.indices[idx]
+            inputs[idx - self.batch_start, :, :, :, :] = self._select_features(self.video_files[index])
+            targets[idx - self.batch_start, :]         = self.targets[index]
+
+        self.batch_start += current_batch_size
+        return inputs, targets, current_batch_size
+
+    def _select_features(self, video_file):
+        '''
+        Select a sequence of frames from video_file and return them as
+        a Tensor.
+        '''
+        video_reader = imageio.get_reader(video_file, 'ffmpeg')
+        num_frames   = len(video_reader)
+        if self.sequence_length > num_frames:
+            raise ValueError('Sequence length {} is larger then the total number of frames {} in {}.'.format(self.sequence_length, num_frames, video_file))
+
+        # select which sequence frames to use.
+        step = 1
+        expanded_sequence = self.sequence_length
+        if num_frames > 2*self.sequence_length:
+            step = 2
+            expanded_sequence = 2*self.sequence_length
+
+        seq_start = int(num_frames/2) - int(expanded_sequence/2)
+        if self.is_training:
+            seq_start = randint(0, num_frames - expanded_sequence)
+
+        frame_range = [seq_start + step*i for i in range(self.sequence_length)]            
+        video_frames = []
+        for frame_index in frame_range:
+            video_frames.append(self._read_frame(video_reader.get_data(frame_index)))
+        
+        return np.stack(video_frames, axis=1)
+
+    def _read_frame(self, data):
+        '''
+        Based on http://vlg.cs.dartmouth.edu/c3d/c3d_video.pdf
+        We resize the image to 128x171 first, then selecting a 112x112
+        crop.
+        '''
+        if (self.width >= 171) or (self.height >= 128):
+            raise ValueError("Target width need to be less than 171 and target height need to be less than 128.")
+        
+        image = Image.fromarray(data)
+        image.thumbnail((171, 128), Image.ANTIALIAS)
+        
+        center_w = image.size[0] / 2
+        center_h = image.size[1] / 2
+
+        image = image.crop((center_w - self.width  / 2,
+                            center_h - self.height / 2,
+                            center_w + self.width  / 2,
+                            center_h + self.height / 2))
+        
+        norm_image = np.array(image, dtype=np.float32)
+        norm_image -= 127.5
+        norm_image /= 127.5
+
+        # (channel, height, width)
+        return np.ascontiguousarray(np.transpose(norm_image, (2, 0, 1)))
+
+# Creates and trains a feedforward classification model for UCF11 action videos
+def conv3d_ucf11(train_reader, test_reader, max_epochs=30):
+    # Replace 0 with 1 to get detailed log.
+    set_computation_network_trace_level(0)
+
+    # These values must match for both train and test reader.
+    image_height       = train_reader.height
+    image_width        = train_reader.width
+    num_channels       = train_reader.channel_count
+    sequence_length    = train_reader.sequence_length
+    num_output_classes = train_reader.label_count
+
+    # Input variables denoting the features and label data
+    input_var = C.input_variable((num_channels, sequence_length, image_height, image_width), np.float32)
+    label_var = C.input_variable(num_output_classes, np.float32)
+
+    # Instantiate simple 3D Convolution network inspired by VGG network 
+    # and http://vlg.cs.dartmouth.edu/c3d/c3d_video.pdf
+    with C.default_options (activation=C.relu):
+        z = C.layers.Sequential([
+            C.layers.Convolution3D((3,3,3), 64, pad=True),
+            C.layers.MaxPooling((1,2,2), (1,2,2)),
+            C.layers.For(range(3), lambda i: [
+                C.layers.Convolution3D((3,3,3), [96, 128, 128][i], pad=True),
+                C.layers.Convolution3D((3,3,3), [96, 128, 128][i], pad=True),
+                C.layers.MaxPooling((2,2,2), (2,2,2))
+            ]),
+            C.layers.For(range(2), lambda : [
+                C.layers.Dense(1024), 
+                C.layers.Dropout(0.5)
+            ]),
+            C.layers.Dense(num_output_classes, activation=None)
+        ])(input_var)
+    
+    # loss and classification error.
+    ce = C.cross_entropy_with_softmax(z, label_var)
+    pe = C.classification_error(z, label_var)
+
+    # training config
+    train_epoch_size     = train_reader.size()
+    train_minibatch_size = 2
+
+    # Set learning parameters
+    lr_per_sample          = [0.01]*10+[0.001]*10+[0.0001]
+    lr_schedule            = C.learning_rate_schedule(lr_per_sample, epoch_size=train_epoch_size, unit=C.UnitType.sample)
+    momentum_time_constant = 4096
+    mm_schedule            = C.momentum_as_time_constant_schedule([momentum_time_constant])
+
+    # Instantiate the trainer object to drive the model training
+    learner = C.momentum_sgd(z.parameters, lr_schedule, mm_schedule, True)
+    progress_printer = ProgressPrinter(tag='Training', num_epochs=max_epochs)
+    trainer = C.Trainer(z, (ce, pe), learner, progress_printer)
+
+    log_number_of_parameters(z) ; print()
+
+    # Get minibatches of images to train with and perform model training
+    for epoch in range(max_epochs):       # loop over epochs
+        train_reader.reset()
+
+        while train_reader.has_more():
+            videos, labels, current_minibatch = train_reader.next_minibatch(train_minibatch_size)
+            trainer.train_minibatch({input_var : videos, label_var : labels})
+
+        trainer.summarize_training_progress()
+
+    # Test data for trained model
+    epoch_size     = test_reader.size()
+    test_minibatch_size = 2
+
+    # process minibatches and evaluate the model
+    metric_numer    = 0
+    metric_denom    = 0
+    minibatch_index = 0
+
+    test_reader.reset()    
+    while test_reader.has_more():
+        videos, labels, current_minibatch = test_reader.next_minibatch(test_minibatch_size)
+        # minibatch data to be trained with
+        metric_numer += trainer.test_minibatch({input_var : videos, label_var : labels}) * current_minibatch
+        metric_denom += current_minibatch
+        # Keep track of the number of samples processed so far.
+        minibatch_index += 1
+
+    print("")
+    print("Final Results: Minibatch[1-{}]: errs = {:0.2f}% * {}".format(minibatch_index+1, (metric_numer*100.0)/metric_denom, metric_denom))
+    print("")
+
+    return metric_numer/metric_denom
+
+if __name__=='__main__':
+    num_output_classes = 11
+    train_reader = VideoReader(os.path.join(data_path, 'train_map.csv'), num_output_classes, True)
+    test_reader  = VideoReader(os.path.join(data_path, 'test_map.csv'), num_output_classes, False)
+        
+    conv3d_ucf11(train_reader, test_reader)
+   
+  
